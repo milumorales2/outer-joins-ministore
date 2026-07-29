@@ -8,7 +8,9 @@
 -- Mostrá todos los productos y sus ventas asociadas.
 -- Los productos sin ventas aparecerán con NULL en las columnas de ventas.
 
+SELECT 
 
+FROM productos AS p
 -- ── CONSULTA 2: RIGHT JOIN ────────────────
 -- Pregunta de negocio: ¿Existen ventas registradas con productos
 -- que no figuran en nuestro catálogo? (posible error de carga de datos)
